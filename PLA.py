@@ -28,7 +28,7 @@ plt.plot(X[ind_neg, 1], X[ind_neg, 2], 'bx')    # blue 'x' points
 # Generate random target function: f(x) = w^Tx
 m = w[1] / w[2]
 intercept = w[0] / w[2]
-line_x = np.linspace(-1, 1, 100)
+line_x = np.linspace(-1, 1, 100) 
 # Plot target function
 y = (-m*line_x) - intercept
 plt.plot(line_x, y, label='target fxn f')
